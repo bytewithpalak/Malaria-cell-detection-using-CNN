@@ -122,3 +122,14 @@ The confusion matrix showed strong classification capability for both infected a
 
 ---
 
+# 📁 Project Structure
+
+```bash
+malaria-detection/
+│
+├── malaria_model.keras
+├── best_final.keras
+├── training_history.pkl
+├── notebook.ipynb
+├── README.md
+└── images/
