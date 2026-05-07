@@ -19,9 +19,8 @@ The model was trained and tested using TensorFlow/Keras in Google Colab. :conten
 
 # 🖼️ Sample Dataset Images
 
-| Parasitized | Uninfected |
-|-------------|-------------|
-| ![Parasitized](https://raw.githubusercontent.com/microsoft/computervision-recipes/master/scenarios/classification/assets/malaria_parasitized.png) | ![Uninfected](https://raw.githubusercontent.com/microsoft/computervision-recipes/master/scenarios/classification/assets/malaria_uninfected.png) |
+<img width="862" height="617" alt="image" src="https://github.com/user-attachments/assets/250f4295-d060-440f-b36c-5c17289b7e24" />
+
 
 ---
 
@@ -100,11 +99,6 @@ Classification report generated after evaluation showed strong performance on bo
 
 ---
 
-# 📈 Training Curves
-
-![Training Curves](https://miro.medium.com/v2/resize:fit:1400/1*9P7m0xM4bX7nRk6H5Y7rIQ.png)
-
-The model achieved stable learning with decreasing validation loss and high AUC score during training. :contentReference[oaicite:5]{index=5}
 
 ---
 
@@ -119,17 +113,8 @@ This improves model interpretability and helps understand CNN decision-making. :
 # 📊 Confusion Matrix
 
 The confusion matrix showed strong classification capability for both infected and uninfected cells. :contentReference[oaicite:7]{index=7}
+<img width="576" height="413" alt="image" src="https://github.com/user-attachments/assets/d4db87ae-d0f9-468c-bc9a-b96b28fa5f24" />
 
 ---
 
-# 📁 Project Structure
 
-```bash
-malaria-detection/
-│
-├── malaria_model.keras
-├── best_final.keras
-├── training_history.pkl
-├── notebook.ipynb
-├── README.md
-└── images/
